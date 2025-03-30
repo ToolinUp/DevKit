@@ -27,7 +27,7 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 ### 2️⃣ Add the ToolinUp DevKit Bucket
 ```powershell
-scoop bucket add toolingup https://github.com/toolingup/toolinup-devkit.git
+scoop bucket add toolingup https://github.com/toolingup/devkit.git
 ```
 
 ### 3️⃣ Install Development Environments
