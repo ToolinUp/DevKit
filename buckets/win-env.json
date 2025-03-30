@@ -1,0 +1,35 @@
+{
+    "version": "1.0.0",
+    "description": "Native Windows development environment with essential tools for developers working directly on Windows.",
+    "homepage": "https://www.toolingup.com",
+    "depends": [
+        "git",
+        "neovim",
+        "7zip",
+        "aria2",
+        "fzf",
+        "scoop-completion",
+        "zoxide"
+    ],
+    "installer": {
+        "script": [
+            "scoop install git neovim 7zip aria2 fzf scoop-completion zoxide"
+        ]
+    },
+    "tools": [
+        {
+            "name": "vscode",
+            "bucket": "main",
+            "version": "latest",
+            "description": "Lightweight code editor for development."
+        },
+        {
+            "name": "nodejs-lts",
+            "bucket": "main",
+            "version": "latest",
+            "description": "JavaScript runtime for running web and server applications."
+        }
+    ],
+    "notes": "Restart your terminal after installation. You may need to manually configure some tools (e.g., Neovim configurations)."
+}
+
