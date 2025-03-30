@@ -1,0 +1,110 @@
+{
+    "name": "toolingup-devkit",
+    "version": "1.0.0",
+    "description": "ToolinUp DevKit for setting up development environments on Windows with Scoop.",
+    "environments": [
+      {
+        "name": "win-env",
+        "description": "Native Windows Development Environment",
+        "tools": [
+          {
+            "name": "vscode",
+            "version": "latest",
+            "source": "scoop",
+            "installCommand": "scoop install vscode"
+          },
+          {
+            "name": "git",
+            "version": "latest",
+            "source": "scoop",
+            "installCommand": "scoop install git"
+          },
+          {
+            "name": "nodejs",
+            "version": "latest",
+            "source": "scoop",
+            "installCommand": "scoop install nodejs"
+          },
+          {
+            "name": "scoop-essentials",
+            "version": "latest",
+            "source": "scoop",
+            "installCommand": "scoop install scoop-essentials"
+          }
+        ]
+      },
+      {
+        "name": "wsl-env",
+        "description": "WSL2 Linux Development Environment",
+        "tools": [
+          {
+            "name": "ubuntu",
+            "version": "latest",
+            "source": "scoop",
+            "installCommand": "scoop install wsl-ubuntu"
+          },
+          {
+            "name": "git",
+            "version": "latest",
+            "source": "scoop",
+            "installCommand": "scoop install git"
+          },
+          {
+            "name": "nodejs",
+            "version": "latest",
+            "source": "scoop",
+            "installCommand": "scoop install nodejs"
+          },
+          {
+            "name": "php-cli",
+            "version": "latest",
+            "source": "scoop",
+            "installCommand": "scoop install php-cli"
+          }
+        ]
+      },
+      {
+        "name": "python-env",
+        "description": "Python Development Environment for WSL2",
+        "tools": [
+          {
+            "name": "python",
+            "version": "latest",
+            "source": "scoop",
+            "installCommand": "scoop install python"
+          },
+          {
+            "name": "pip",
+            "version": "latest",
+            "source": "scoop",
+            "installCommand": "scoop install pip"
+          },
+          {
+            "name": "python-virtualenv",
+            "version": "latest",
+            "source": "scoop",
+            "installCommand": "scoop install python-virtualenv"
+          }
+        ]
+      },
+      {
+        "name": "container-env",
+        "description": "Docker-based Development Environment with Containers",
+        "tools": [
+          {
+            "name": "docker",
+            "version": "latest",
+            "source": "scoop",
+            "installCommand": "scoop install docker"
+          },
+          {
+            "name": "docker-compose",
+            "version": "latest",
+            "source": "scoop",
+            "installCommand": "scoop install docker-compose"
+          }
+        ]
+      }
+    ]
+  }
+  
