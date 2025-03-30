@@ -1,0 +1,21 @@
+{
+    "version": "1.0.0",
+    "description": "Adds containerization tools like Docker and Podman to WSL2 for development.",
+    "homepage": "https://www.toolingup.com",
+    "depends": [
+        "docker",
+        "docker-compose",
+        "podman",
+        "buildah",
+        "skopeo"
+    ],
+    "installer": {
+        "script": [
+            "sudo apt update && sudo apt upgrade -y",
+            "sudo apt install -y docker.io docker-compose podman buildah skopeo",
+            "sudo usermod -aG docker $USER",
+            "newgrp docker"
+        ]
+    },
+    "notes": "Restart WSL (`wsl --shutdown`) after installation. Run `docker version` to verify installation."
+}
