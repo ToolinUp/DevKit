@@ -1,0 +1,44 @@
+{
+    "version": "1.0.0",
+    "description": "Python development environment with essential tools for modern development.",
+    "homepage": "https://www.toolingup.com",
+    "depends": [
+        "python",
+        "pipx",
+        "pyenv-win",
+        "poetry"
+    ],
+    "installer": {
+        "script": [
+            "scoop install python pipx pyenv-win poetry",
+            "pipx ensurepath"
+        ]
+    },
+    "tools": [
+        {
+            "name": "python",
+            "bucket": "main",
+            "version": "latest",
+            "description": "Python programming language runtime and interpreter."
+        },
+        {
+            "name": "pipx",
+            "bucket": "main",
+            "version": "latest",
+            "description": "Python tool for installing and running isolated applications."
+        },
+        {
+            "name": "pyenv-win",
+            "bucket": "main",
+            "version": "latest",
+            "description": "Python version management tool for Windows."
+        },
+        {
+            "name": "poetry",
+            "bucket": "main",
+            "version": "latest",
+            "description": "Dependency management and packaging for Python projects."
+        }
+    ],
+    "notes": "Restart your terminal after installation. Use `pyenv` to manage Python versions, `pipx` for global tools, and `poetry` for dependency management."
+}
