@@ -1,0 +1,25 @@
+{
+    "version": "1.0.0",
+    "description": "WSL-based Linux development environment with essential CLI tools.",
+    "homepage": "https://www.toolingup.com",
+    "depends": [
+        "git",
+        "neovim",
+        "zsh",
+        "tmux",
+        "fzf",
+        "ripgrep",
+        "htop",
+        "curl",
+        "wget",
+        "jq"
+    ],
+    "installer": {
+        "script": [
+            "sudo apt update && sudo apt upgrade -y",
+            "sudo apt install -y git neovim zsh tmux fzf ripgrep htop curl wget jq",
+            "chsh -s $(which zsh)"
+        ]
+    },
+    "notes": "Restart your WSL terminal after installation. Run `zsh` to start using the new shell."
+}
