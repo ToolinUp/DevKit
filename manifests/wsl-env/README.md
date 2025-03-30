@@ -1,6 +1,6 @@
 # 🐧 WSL Development Environment (`wsl-env`)
 
-The **WSL Development Environment (`wsl-env`)** sets up a **fully optimized WSL2 environment** for web development. It includes key tools to enhance performance, package management, and compatibility between Windows and Linux.
+The **WSL Development Environment (`wsl-env`)**  in the ToolinUp DevKit provides a sets up a **fully optimized WSL2 environment** for web development. It includes key tools to enhance performance, package management, and compatibility between Windows and Linux.
 
 ## 🚀 Features
 ✅ **WSL2** – Full Linux compatibility on Windows  

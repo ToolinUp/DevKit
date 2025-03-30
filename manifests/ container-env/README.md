@@ -1,6 +1,6 @@
 # 🐳 Container Environment (`container-env`)
 
-The **Container Environment (`container-env`)**  in the TOolinUp DevKit provides a provides essential containerization tools for WSL2. It includes **Docker, Podman, Buildah, and Skopeo**, allowing developers to build, manage, and run containers efficiently.
+The **Container Environment (`container-env`)**  in the ToolinUp DevKit provides a provides essential containerization tools for WSL2. It includes **Docker, Podman, Buildah, and Skopeo**, allowing developers to build, manage, and run containers efficiently.
 
 ## 🚀 Features
 ✅ **Docker** – Industry-standard container runtime  
