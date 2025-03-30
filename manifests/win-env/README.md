@@ -1,6 +1,6 @@
 # 🏁 Native Windows Development (`win-env`)
 
-The **Windows Development Environment (`win-env`)** provides a **lightweight, optimized development setup for Windows** without WSL. It includes essential CLI tools to enhance productivity.
+The **Windows Development Environment (`win-env`)** in the ToolinUp DevKit provides a **lightweight, optimized development setup for Windows** without WSL. It includes essential CLI tools to enhance productivity.
 
 ## 🚀 Features
 ✅ **Git** – Version control system  
