@@ -1,6 +1,11 @@
 # Changelog
 
+
+## 0.0.2 - 2025-03-31
+- ADD nodejs to WSL-ENV
+
 ## [0.0.1] - 2025-03-30
+
 ### Added
 - Initial release of ToolingUp DevKit.
 - win-env: Native Windows development environment with VS Code, Git, and Node.js.
