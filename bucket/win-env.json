@@ -2,19 +2,23 @@
     "version": "1.0.0",
     "description": "Native Windows development environment with essential tools for developers working directly on Windows.",
     "homepage": "https://www.toolingup.com",
+    "architecture": "x64",
     "depends": [
       "git",
       "neovim",
       "7zip",
       "aria2",
       "fzf",
-      "zoxide"
+      "zoxide",
+      "vcredist2022"
     ],
     "installer": {
       "script": [
         "if (!(scoop bucket list | Select-String -Pattern '^scoop\\b')) { scoop bucket add scoop }",
         "scoop install scoop/scoop-completion",
-        "scoop install git neovim 7zip aria2 fzf zoxide"
+        "scoop install git neovim 7zip aria2 fzf zoxide",
+        "scoop bucket add extras",
+        "scoop install extras/vscode"
       ]
     },
     "tools": [
