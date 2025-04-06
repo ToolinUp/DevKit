@@ -3,7 +3,6 @@
     "description": "Native Windows development environment with essential tools for developers working directly on Windows.",
     "homepage": "https://www.toolingup.com",
     "depends": [
-      "scoop/scoop-completion",
       "git",
       "neovim",
       "7zip",
@@ -14,7 +13,8 @@
     "installer": {
       "script": [
         "if (!(scoop bucket list | Select-String -Pattern '^scoop\\b')) { scoop bucket add scoop }",
-        "scoop install scoop/scoop-completion git neovim 7zip aria2 fzf zoxide"
+        "scoop install scoop/scoop-completion",
+        "scoop install git neovim 7zip aria2 fzf zoxide"
       ]
     },
     "tools": [
@@ -43,7 +43,7 @@
         "description": "Windows installation manager to help manage additional tools."
       }
     ],
-    "notes": "Restart your terminal after installation. You may need to manually configure some tools (e.g., Neovim configurations). Scoop-completion requires the 'scoop' bucket, which is now automatically added if not present."
-  }
+    "notes": "Restart your terminal after installation. You may need to manually configure some tools (e.g., Neovim configurations). scoop-completion requires the 'scoop' bucket, which is now added automatically if not present."
+  }  
   
 
