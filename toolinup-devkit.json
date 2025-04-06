@@ -1,5 +1,5 @@
 {
-    "name": "toolingup-devkit",
+    "name": "toolinup-devkit",
     "version": "1.0.0",
     "description": "ToolinUp DevKit for setting up development environments on Windows with Scoop.",
     "environments": [
