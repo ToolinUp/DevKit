@@ -9,8 +9,7 @@
       "7zip",
       "aria2",
       "fzf",
-      "zoxide",
-      "vcredist2022"
+      "zoxide"
     ],
     "installer": {
       "script": [
@@ -18,7 +17,8 @@
         "scoop install scoop/scoop-completion",
         "scoop install git neovim 7zip aria2 fzf zoxide",
         "scoop bucket add extras",
-        "scoop install extras/vscode"
+        "scoop install extras/vscode",
+        "scoop install extras/vcredist2022"
       ]
     },
     "tools": [
