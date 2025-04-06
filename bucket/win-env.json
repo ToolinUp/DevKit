@@ -19,7 +19,8 @@
       "scoop install scoop/scoop-completion",
       "scoop install git 7zip aria2 fzf zoxide",
       "scoop install neovim",
-      "scoop install vscode"
+      "scoop install vscode",
+      "scoop install nodejs-lts"
     ]
   },
   "tools": [
