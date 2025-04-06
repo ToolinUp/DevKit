@@ -18,7 +18,7 @@ This environment is built on top of the ToolinUp DevKit, designed for Python and
 
 - **Scoop**: The ToolinUp DevKit uses Scoop to manage software installation. Make sure you've already installed Scoop on your system.
 
-If you don't have Scoop installed, follow the instructions on the [ToolinUp DevKit Installation Guide](https://www.toolingup.com) to install it.
+If you don't have Scoop installed, follow the instructions on the [ToolinUp DevKit Installation Guide](https://www.toolinup.com) to install it.
 
 ## Installation
 
@@ -26,7 +26,7 @@ If you don't have Scoop installed, follow the instructions on the [ToolinUp DevK
    - Install Scoop.
    - Add the ToolinUp DevKit bucket:  
      ```bash
-     scoop bucket add toolingup https://github.com/ToolinUp/DevKit
+     scoop bucket add toolinup https://github.com/ToolinUp/DevKit
      ```
 
 2. **Install Django Environment**:
@@ -100,4 +100,4 @@ A2: Absolutely! The setup works seamlessly in WSL as well. Just make sure to fol
 
 ---
 
-For more details, visit the [ToolinUp DevKit Documentation](https://www.toolingup.com).
+For more details, visit the [ToolinUp DevKit Documentation](https://www.toolinup.com).

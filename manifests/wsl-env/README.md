@@ -14,7 +14,7 @@ The **WSL Development Environment (`wsl-env`)**  in the ToolinUp DevKit provides
 ### **Prerequisites**
 - Ensure you have added the **ToolinUp DevKit** bucket to Scoop:  
   ```sh
-  scoop bucket add toolingup https://github.com/ToolinUp/DevKit.git
+  scoop bucket add toolinup https://github.com/ToolinUp/DevKit.git
   ```
 
 ### **Install `wsl-env`**
@@ -50,4 +50,4 @@ scoop install wsl-env
   ```
 - Use **Windows Terminal** for an improved CLI experience.
 
-For more details, visit [ToolinUp DevKit Documentation](https://www.toolingup.com).  
+For more details, visit [ToolinUp DevKit Documentation](https://www.toolinup.com).  

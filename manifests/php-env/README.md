@@ -40,7 +40,7 @@ To install `php-env`, follow these steps:
 1. Add the ToolinUp DevKit bucket to Scoop:
 
     ```powershell
-    scoop bucket add toolingup https://github.com/ToolinUp/DevKit
+    scoop bucket add toolinup https://github.com/ToolinUp/DevKit
     ```
 
 2. Install the PHP development environment:
@@ -94,7 +94,7 @@ This will remove PHP and all its related tools from your system.
 - After installation, you may need to manually configure some tools (e.g., PHP and Xdebug).
 - If you're using a code editor like VS Code, consider installing PHP extensions for enhanced development experience.
 
-For more information on using ToolinUp DevKit and setting up other environments, visit [ToolinUp.com](https://www.toolingup.com).
+For more information on using ToolinUp DevKit and setting up other environments, visit [ToolinUp.com](https://www.toolinup.com).
 
 ## Troubleshooting
 

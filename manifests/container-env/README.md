@@ -18,7 +18,7 @@ The **Container Environment (`container-env`)**  in the ToolinUp DevKit provides
   ```
 - Ensure you have added the **ToolinUp DevKit** bucket to Scoop:  
   ```sh
-  scoop bucket add toolingup https://github.com/ToolinUp/DevKit.git
+  scoop bucket add toolinup https://github.com/ToolinUp/DevKit.git
   ```
 
 ### **Install `container-env`**
@@ -53,4 +53,4 @@ podman info
 - Use **`docker-compose`** for multi-container applications  
 - Explore **Podman** as a drop-in replacement for Docker  
 
-For advanced setups, check out [ToolinUp DevKit Documentation](https://www.toolingup.com). 
+For advanced setups, check out [ToolinUp DevKit Documentation](https://www.toolinup.com). 

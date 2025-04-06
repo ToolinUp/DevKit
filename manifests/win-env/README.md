@@ -15,7 +15,7 @@ The **Windows Development Environment (`win-env`)** in the ToolinUp DevKit provi
 ### **Prerequisites**
 - Ensure you have added the **ToolinUp DevKit** bucket to Scoop:
   ```sh
-  scoop bucket add toolingup https://github.com/ToolinUp/DevKit.git
+  scoop bucket add toolinup https://github.com/ToolinUp/DevKit.git
   ```
 
 ### **Install `win-env`**
@@ -51,4 +51,4 @@ scoop install win-env
   scoop install <package-name>
   ```
 
-For more details, visit [ToolinUp DevKit Documentation](https://www.toolingup.com).  
+For more details, visit [ToolinUp DevKit Documentation](https://www.toolinup.com).  

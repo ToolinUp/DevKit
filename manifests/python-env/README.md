@@ -40,7 +40,7 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 To install the `python-env` setup, add the ToolinUp DevKit bucket:
 
 ```bash
-scoop bucket add toolingup https://github.com/ToolinUp/DevKit.git
+scoop bucket add toolinup https://github.com/ToolinUp/DevKit.git
 ```
 
 3️⃣ **Install Python Development Environment**
@@ -48,7 +48,7 @@ scoop bucket add toolingup https://github.com/ToolinUp/DevKit.git
 Now, install the Python development environment using the following command:
 
 ```bash
-scoop install toolingup/python-env
+scoop install toolinup/python-env
 ```
 
 This will install the following tools:
