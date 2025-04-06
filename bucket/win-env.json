@@ -8,7 +8,7 @@
         "7zip",
         "aria2",
         "fzf",
-        "scoop-completion",
+        "scoop/scoop-completion",
         "zoxide"
     ],
     "installer": {
@@ -30,6 +30,6 @@
             "description": "JavaScript runtime for running web and server applications."
         }
     ],
-    "notes": "Restart your terminal after installation. You may need to manually configure some tools (e.g., Neovim configurations)."
+    "notes": "Restart your terminal after installation. You may need to manually configure some tools (e.g., Neovim). Scoop-completion requires the 'scoop' bucket, which is automatically added when using 'scoop/scoop-completion'."
 }
 
