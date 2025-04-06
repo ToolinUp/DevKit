@@ -12,9 +12,8 @@
   "installer": {
     "script": [
       "if (!(scoop bucket list | Select-String -Pattern '^scoop\\b')) { scoop bucket add scoop }",
+      "scoop bucket add extras", // Add extras bucket before installing vscode
       "scoop install scoop/scoop-completion",
-      "scoop bucket add extras",
-      "scoop install vcredist2022",  // install first to prevent Neovim warning
       "scoop install git 7zip aria2 fzf zoxide",
       "scoop install neovim",
       "scoop install vscode"
@@ -48,5 +47,3 @@
   ],
   "notes": "Restart your terminal after installation. You may need to manually configure some tools (e.g., Neovim configurations). scoop-completion requires the 'scoop' bucket, which is now added automatically if not present."
 }
-  
-
