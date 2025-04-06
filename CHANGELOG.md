@@ -1,5 +1,7 @@
 # Changelog
 
+## 0.0.3 - 2025-06-04
+- Restructure based on Scoop Bucket Template
 
 ## 0.0.2 - 2025-03-31
 - ADD nodejs to WSL-ENV

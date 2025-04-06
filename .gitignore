@@ -1,2 +1,9 @@
 # VS Code settings
 .vscode/
+
+# Misc settings
+*.sublime-workspace
+*~
+._*
+page.html
+checkver-*.html
