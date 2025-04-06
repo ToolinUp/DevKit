@@ -10,6 +10,7 @@
     "zoxide",
     "vscode",
     "nodejs-lts",
+    "vcredist2022",
     "neovim"
   ],
   "installer": {
@@ -18,8 +19,9 @@
       "scoop bucket add extras", // Add extras bucket before installing vscode
       "scoop install scoop/scoop-completion",
       "scoop install git 7zip aria2 fzf zoxide",
+      "scoop install vcredist2022", // Already listed in depends, but explicitly installing here
       "scoop install neovim",
-      "scoop install vscode",
+      "scoop install vscode", // Ensure vscode is installed from extras bucket
       "scoop install nodejs-lts"
     ]
   },
