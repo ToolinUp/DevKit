@@ -27,7 +27,7 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 ### 2️⃣ Add the ToolinUp DevKit Bucket
 ```powershell
-scoop bucket add toolingup https://github.com/toolingup/devkit.git
+scoop bucket add toolinup https://github.com/toolinup/devkit.git
 ```
 
 ### 3️⃣ Install Development Environments
@@ -35,19 +35,19 @@ Choose the setup that fits your workflow:
 
 #### **Native Windows Setup**
 ```powershell
-scoop install toolingup/win-env
+scoop install toolinup/win-env
 ```
 Includes VS Code, Git, XAMPP, and Node.js.
 
 #### **WSL2 (Ubuntu) Setup**
 ```powershell
-scoop install toolingup/wsl-env
+scoop install toolinup/wsl-env
 ```
 Configures WSL2 with Ubuntu and installs CLI tools.
 
 #### **Docker Dev Containers Setup**
 ```powershell
-scoop install toolingup/container-env
+scoop install toolinup/container-env
 ```
 Installs Docker Desktop and related tools for containerized development.
 
@@ -55,9 +55,9 @@ Installs Docker Desktop and related tools for containerized development.
 
 | Package                  | Environment      | Installs |
 |--------------------------|-----------------|----------|
-| **toolingup/win-env**    | Windows         | VS Code, Git, XAMPP, Node.js |
-| **toolingup/wsl-env**    | WSL2 (Ubuntu)   | Ubuntu, VS Code, Git, Node.js |
-| **toolingup/container-env** | Docker Dev Containers | Docker Desktop, CLI tools |
+| **toolinup/win-env**    | Windows         | VS Code, Git, XAMPP, Node.js |
+| **toolinup/wsl-env**    | WSL2 (Ubuntu)   | Ubuntu, VS Code, Git, Node.js |
+| **toolinup/container-env** | Docker Dev Containers | Docker Desktop, CLI tools |
 
 ## 🔍 Managing Packages
 
@@ -68,7 +68,7 @@ scoop bucket list
 
 ### Search for Packages
 ```powershell
-scoop search toolingup
+scoop search toolinup
 ```
 
 ### List Installed Packages
@@ -89,7 +89,7 @@ scoop uninstall vscode
 ### Install Specific Tools
 Example: Install XAMPP separately
 ```powershell
-scoop install toolingup/xampp
+scoop install toolinup/xampp
 ```
 
 ## 🔧 Additional Setup Steps
@@ -132,11 +132,11 @@ irm get.scoop.sh | iex
 #### **4️⃣ How do I install a ToolinUp DevKit environment?**  
 First, add the ToolinUp bucket:  
 ```powershell
-scoop bucket add toolingup https://github.com/toolingup/devkit.git
+scoop bucket add toolinup https://github.com/toolinup/devkit.git
 ```  
 Then install the desired environment. For example:  
 ```powershell
-scoop install toolingup/wsl-env
+scoop install toolinup/wsl-env
 ```
 
 #### **5️⃣ Should I install `wsl-env` before installing `python-env`, `django-env`, or `container-env`?**  
@@ -145,7 +145,7 @@ Yes, `wsl-env` is a **prerequisite** for all add-on environments. Install it fir
 #### **6️⃣ Can I install multiple environments at once?**  
 Yes, you can mix and match environments. Example:  
 ```powershell
-scoop install toolingup/wsl-env toolingup/python-env toolingup/container-env
+scoop install toolinup/wsl-env toolinup/python-env toolinup/container-env
 ```
 
 #### **7️⃣ What if I already have WSL installed? Can I still use `wsl-env`?**  
@@ -170,13 +170,13 @@ scoop update *
 #### **🔟 How do I uninstall a ToolinUp environment?**  
 For example, to remove `wsl-env`:  
 ```powershell
-scoop uninstall toolingup/wsl-env
+scoop uninstall toolinup/wsl-env
 ```
 
 #### **1️⃣1️⃣ How can I install individual tools separately?**  
 You can install any package manually. Example:  
 ```powershell
-scoop install toolingup/vscode
+scoop install toolinup/vscode
 ```
 
 #### **1️⃣2️⃣ Why isn't my installed tool available in the command line?**  
