@@ -1,53 +1,52 @@
 {
-    "version": "1.0.0",
-    "description": "Native Windows development environment with essential tools for developers working directly on Windows.",
-    "homepage": "https://www.toolingup.com",
-    "architecture": { "64bit": { } },
-    "depends": [
-      "git",
-      "neovim",
-      "7zip",
-      "aria2",
-      "fzf",
-      "zoxide"
-    ],
-    "installer": {
-      "script": [
-        "if (!(scoop bucket list | Select-String -Pattern '^scoop\\b')) { scoop bucket add scoop }",
-        "scoop install scoop/scoop-completion",
-        "scoop install git neovim 7zip aria2 fzf zoxide",
-        "scoop bucket add extras",
-        "scoop install extras/vscode",
-        "scoop install extras/vcredist2022"
-      ]
+  "version": "1.0.0",
+  "description": "Native Windows development environment with essential tools for developers working directly on Windows.",
+  "homepage": "https://www.toolingup.com",
+  "depends": [
+    "git",
+    "7zip",
+    "aria2",
+    "fzf",
+    "zoxide"
+  ],
+  "installer": {
+    "script": [
+      "if (!(scoop bucket list | Select-String -Pattern '^scoop\\b')) { scoop bucket add scoop }",
+      "scoop install scoop/scoop-completion",
+      "scoop bucket add extras",
+      "scoop install vcredist2022",  // install first to prevent Neovim warning
+      "scoop install git 7zip aria2 fzf zoxide",
+      "scoop install neovim",
+      "scoop install vscode"
+    ]
+  },
+  "tools": [
+    {
+      "name": "vscode",
+      "bucket": "extras",
+      "version": "latest",
+      "description": "Lightweight code editor for development."
     },
-    "tools": [
-      {
-        "name": "vscode",
-        "bucket": "main",
-        "version": "latest",
-        "description": "Lightweight code editor for development."
-      },
-      {
-        "name": "git",
-        "bucket": "main",
-        "version": "latest",
-        "description": "Version control system for tracking code changes."
-      },
-      {
-        "name": "nodejs-lts",
-        "bucket": "main",
-        "version": "latest",
-        "description": "JavaScript runtime for running web and server applications."
-      },
-      {
-        "name": "scoop",
-        "bucket": "main",
-        "version": "latest",
-        "description": "Windows installation manager to help manage additional tools."
-      }
-    ],
-    "notes": "Restart your terminal after installation. You may need to manually configure some tools (e.g., Neovim configurations). scoop-completion requires the 'scoop' bucket, which is now added automatically if not present."
-  }  
+    {
+      "name": "git",
+      "bucket": "main",
+      "version": "latest",
+      "description": "Version control system for tracking code changes."
+    },
+    {
+      "name": "nodejs-lts",
+      "bucket": "main",
+      "version": "latest",
+      "description": "JavaScript runtime for running web and server applications."
+    },
+    {
+      "name": "scoop",
+      "bucket": "main",
+      "version": "latest",
+      "description": "Windows installation manager to help manage additional tools."
+    }
+  ],
+  "notes": "Restart your terminal after installation. You may need to manually configure some tools (e.g., Neovim configurations). scoop-completion requires the 'scoop' bucket, which is now added automatically if not present."
+}
   
 
