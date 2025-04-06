@@ -18,11 +18,8 @@ The ToolinUp DevKit provides quick installation of essential development tools:
 ### 1️⃣ Install Scoop (if not already installed)
 Open **PowerShell (Administrator)** and run:
 ```powershell
-irm get.scoop.sh | iex
-```
-If prompted about execution policy, enable it with:
-```powershell
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+irm get.scoop.sh | iex
 ```
 
 ### 2️⃣ Add the ToolinUp DevKit Bucket
