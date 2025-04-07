@@ -1,7 +1,7 @@
 {
     "version": "1.0.0",
-    "description": "ToolingUp Django Development Environment - Installs essential tools for Django development.",
-    "homepage": "https://www.toolingup.com",
+    "description": "ToolinUp Django Development Environment - Installs essential tools for Django development.",
+    "homepage": "https://www.toolinup.com",
     "depends": [
         "git",
         "python",
@@ -19,7 +19,7 @@
     "tools": [
         {
             "name": "django",
-            "bucket": "toolingup",
+            "bucket": "toolinup",
             "version": "latest",
             "description": "The Django web framework for Python development."
         },

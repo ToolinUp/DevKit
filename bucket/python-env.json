@@ -1,7 +1,7 @@
 {
     "version": "1.0.0",
     "description": "Python development environment with essential tools for modern development.",
-    "homepage": "https://www.toolingup.com",
+    "homepage": "https://www.toolinup.com",
     "depends": [
         "python",
         "pipx",

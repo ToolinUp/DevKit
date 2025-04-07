@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "Native Windows development environment with essential tools for developers working directly on Windows.",
-  "homepage": "https://www.toolingup.com",
+  "homepage": "https://www.toolinup.com",
   "depends": [
     "git",
     "7zip",

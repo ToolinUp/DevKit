@@ -1,7 +1,7 @@
 {
     "version": "1.0.0",
     "description": "Adds containerization tools like Docker and Podman to WSL2 for development.",
-    "homepage": "https://www.toolingup.com",
+    "homepage": "https://www.toolinup.com",
     "depends": [
         "docker",
         "docker-compose",

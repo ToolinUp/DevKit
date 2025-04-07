@@ -19,7 +19,7 @@ Each environment is defined using a **Scoop manifest** and can be installed usin
 ### 1️⃣ **Add ToolinUp DevKit to Scoop**
 Before installing any environment, add the ToolinUp DevKit Scoop bucket:
 ```sh
-scoop bucket add toolingup https://github.com/ToolinUp/DevKit.git
+scoop bucket add toolinup https://github.com/ToolinUp/DevKit.git
 ```
 
 ### 2️⃣ **Install an Environment**
@@ -56,4 +56,4 @@ scoop uninstall python-env
 ```
 
 ## 🔗 Learn More
-For detailed setup instructions, visit the [ToolinUp DevKit documentation](https://www.toolingup.com).
+For detailed setup instructions, visit the [ToolinUp DevKit documentation](https://www.toolinup.com).

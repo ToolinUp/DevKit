@@ -1,7 +1,7 @@
 {
     "version": "1.0.0",
     "description": "WSL-based Linux development environment with essential CLI tools.",
-    "homepage": "https://www.toolingup.com",
+    "homepage": "https://www.toolinup.com",
     "depends": [
         "git",
         "neovim",

@@ -1,7 +1,7 @@
 {
     "version": "1.0.0",
     "description": "PHP development environment for native Windows with essential tools for PHP development.",
-    "homepage": "https://www.toolingup.com",
+    "homepage": "https://www.toolinup.com",
     "depends": [
         "git",
         "neovim",
