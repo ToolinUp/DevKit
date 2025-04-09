@@ -35,10 +35,6 @@ scoop install toolinup/win-env
 ```
 Includes VS Code, Git, and Node.js.
 
-#### **WSL2 (Ubuntu) Setup**
-```powershell
-scoop install toolinup/wsl-env
-```
 ## 🔍 Managing Packages
 
 ### List Added Buckets
@@ -153,7 +149,7 @@ Or manually remove and reinstall the environment.
 #### ** Can I modify an environment after installation?**
 Yes! You can manually install additional packages or customize configurations within WSL.
 
-#### **1️⃣5️⃣ Can I contribute to ToolinUp DevKit?**
+#### ** Can I contribute to ToolinUp DevKit?**
 Absolutely! Contributions are welcome on GitHub. You can submit issues, improve manifests, or suggest new environments.
 
 #### ** Will more environments be added in the future?**
