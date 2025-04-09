@@ -8,9 +8,7 @@ The ToolinUp DevKit provides quick installation of essential development tools:
 
 - **VS Code** – Lightweight and powerful code editor.
 - **Git** – Version control system.
-- **Composer** – PHP dependency manager.
 - **Node.js** – JavaScript runtime.
-- **PHP CLI** – Command-line interface for PHP.
 
 ## ⚙️ Installation
 
