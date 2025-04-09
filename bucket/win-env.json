@@ -16,12 +16,11 @@
   "installer": {
     "script": [
       "if (!(scoop bucket list | Select-String -Pattern '^scoop\\b')) { scoop bucket add scoop }",
-      "scoop bucket add extras", // Add extras bucket before installing vscode
+      "scoop bucket add extras",
       "scoop install scoop/scoop-completion",
       "scoop install git 7zip aria2 fzf zoxide",
-      "scoop install vcredist2022", // Already listed in depends, but explicitly installing here
-      "scoop install neovim",
-      "scoop install vscode", // Ensure vscode is installed from extras bucket
+      "scoop install vcredist2022",
+      "scoop install vscode",
       "scoop install nodejs-lts"
     ]
   },

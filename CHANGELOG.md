@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.0.4 - 2025-09-04
+- Revert to native Windows only environment
+
 ## 0.0.3 - 2025-06-04
 - Restructure based on Scoop Bucket Template
 
